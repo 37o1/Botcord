@@ -1,0 +1,29 @@
+{
+  "name": "botcord",
+  "version": "1.0.0",
+  "description": "A desktop app to manually interract with the Discord API via Discord.js in a GUI.",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x init.js"
+  },
+  "bin": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37o1/Botcord.git"
+  },
+  "keywords": [],
+  "author": "37o1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/37o1/Botcord/issues"
+  },
+  "homepage": "https://github.com/37o1/Botcord#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "electron": "^36.3.1",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "name": "botcord",
+  "productName": "Botcord",
   "version": "1.0.0",
   "description": "A desktop app to manually interract with the Discord API via Discord.js in a GUI.",
   "main": "init.js",
@@ -23,6 +24,7 @@
     "@types/node": "^22.15.21"
   },
   "dependencies": {
+    "discord.js": "^14.19.3",
     "electron": "^36.3.1",
     "vite": "^6.3.5"
   }
